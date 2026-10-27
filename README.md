@@ -67,17 +67,18 @@ All screenshots use sample data.
     <td width="50%"><img src="docs/screenshots/dashboard-dark.png" alt="Dashboard in the dark theme" /><p align="center"><sub>Dark theme</sub></p></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/screenshots/login.png" alt="Sign-in" /><p align="center"><sub>Sign-in</sub></p></td>
-    <td width="50%" align="center"><img src="docs/screenshots/receipt.png" alt="Receipt" width="300" /><p align="center"><sub>Receipt generated for a stay</sub></p></td>
+    <td colspan="2" align="center"><img src="docs/screenshots/login.png" alt="Sign-in" width="60%" /><p align="center"><sub>Sign-in</sub></p></td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="docs/screenshots/mobile-dashboard.png" alt="Dashboard on mobile" width="250" />
+  <img src="docs/screenshots/mobile-dashboard.png" alt="Dashboard on mobile" width="230" />
   &nbsp;&nbsp;
-  <img src="docs/screenshots/mobile-menu.png" alt="Mobile menu" width="250" />
+  <img src="docs/screenshots/mobile-menu.png" alt="Mobile menu" width="230" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/receipt.png" alt="Receipt" width="270" />
   <br />
-  <sub>Dashboard and menu on a phone</sub>
+  <sub>Dashboard and menu on a phone, and the receipt generated for a stay</sub>
 </p>
 
 ## Architecture
