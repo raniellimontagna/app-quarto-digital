@@ -4,10 +4,10 @@ context('Editar um produto', () => {
     cy.visit('http://localhost:3000/login');
 
     // preenche o campo de email com nome "email"
-    cy.get('[name="email"]').type('contato@ranimontagna.com');
+    cy.get('[name="email"]').type('demo@quartodigital.dev');
 
     // preenche o campo de senha com nome "password"
-    cy.get('[name="password"]').type('a1s2d3');
+    cy.get('[name="password"]').type('demo1234');
 
     // clica no botão de submit
     cy.get('button[type="submit"]').click();
