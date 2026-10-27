@@ -4,10 +4,10 @@ context('Adiciona um cliente', () => {
     cy.visit('http://localhost:3000/login');
 
     // preenche o campo de email com nome "email"
-    cy.get('[name="email"]').type('contato@ranimontagna.com');
+    cy.get('[name="email"]').type('demo@quartodigital.dev');
 
     // preenche o campo de senha com nome "password"
-    cy.get('[name="password"]').type('a1s2d3');
+    cy.get('[name="password"]').type('demo1234');
 
     // clica no botão de submit
     cy.get('button[type="submit"]').click();
@@ -24,7 +24,7 @@ context('Adiciona um cliente', () => {
     cy.get('button').contains('Novo cliente').click();
 
     // preenche o campo de cpfCnpj
-    cy.get('[id="cpfCnpj"]').type('83047116644');
+    cy.get('[id="cpfCnpj"]').type('46241691821');
 
     // preenche o campo de nome
     cy.get('[id="nome"]').type('Rani Montagna');
